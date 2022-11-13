@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import HeaderSample from './components/header/HeaderSample';
+import LangInfographic from './components/lngg/LangInfographic';
+import SkillInfographic from './components/skli/SkillInfographic';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Let, Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <div className='sidebar'>
+        <ul>
+          <li className='active'><a href="#header">Header</a></li>
+          <li><a href="#languageTile">Language Infographic</a></li>
+          <li><a href="#skillTile">Skill Infographic</a></li>
+          <li><a href="#">Header</a></li>
+          <li><a href="#">Header</a></li>
+          <li><a href="#">Header</a></li>
+          <li><a href="#">Header</a></li>
+          <li><a href="#">Header</a></li>
+        </ul>
+      </div>
+      <div className='component-page'>
+        <div className='document'>
+          <HeaderSample />
+          <LangInfographic/>
+          <SkillInfographic/>
+        </div>
+      </div>
     </div>
   );
 }

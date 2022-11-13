@@ -1,0 +1,43 @@
+.hdr4 {
+    padding: 25px 25px 20px 25px;
+    position: relative;
+    z-index: 2;
+}
+.hdr4 .name {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    word-break: break-word;
+    color: #000;
+    font-weight: 700;
+    text-align: right;
+}
+.hdr4 .prof-title{padding-top: 10px;text-align:right;}
+.hdr4 .cntc-sec{background-color:#000;color:#fff;font-size:10px;text-align:right;padding:5px;margin-top:10px}
+.hdr4 .cntc-sec .heading{display:none}
+.hdr4 .cntc-sec a{color:inherit}
+.hdr4 .prfl-pic .field,
+.hdr4 .monogram {
+    width: 90px;
+    height: 90px;
+    box-shadow:0px 0 15px 0px #000;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.hdr4 .prfl-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.hdr4 .prfl-pic,
+.hdr4 .monogram {
+    display: none;
+}
+
+.hdr4.pict-purl .prfl-pic {
+    display: block
+}

@@ -1,0 +1,25 @@
+/* should be common style */
+.lang-sec.infotilesec .colon,.beforecolonspace{display:none !important}
+.show-colon-space .beforecolonspace{display:inline !important}
+
+
+/*Only wider column*/
+.wider-col .lang-sec.infotilesec .field *{padding-bottom:0!important;font-size:10px}
+.wider-col .lang-sec.infotilesec .field *,.wider-col .lang-sec.infotilesec .nativeLangPara .field{display:inline}
+.wider-col .lang-sec.infotilesec .sliced-rect{height:6px;width:100%;line-height:0;margin-top:3px;clear:both}        
+.wider-col .lang-sec.infotilesec .sliced-rect .sliced-rect-tile{height:100%;background-color:#e3e3e3;float:left;margin-right:3px}
+.wider-col .lang-sec.infotilesec .sliced-rect .sliced-rect-tile:last-child{margin-right:0}
+.wider-col .sliced-rect .sliced-rect-tile.ratvfill{background:linear-gradient(135deg, #9EC4D9 0%, #A0ABC6 99.97%)}
+.wider-col .inner-rating,.wider-col .sliced-rect .sliced-rect-tile.ratvfill{position:relative}
+.wider-col .inner-rating::before,.wider-col .sliced-rect .sliced-rect-tile.ratvfill::before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.5;background:linear-gradient(135deg, #9EC4D9 0%, #A0ABC6 99.97%)}
+.wider-col .lang-space{display:flex;flex-wrap:wrap;justify-content:space-between;}
+.wider-col .lang-space .colon{flex:1}
+
+
+.wider-col .lang-sec.infotilesec{padding-left:0px;display:flex;flex-wrap:wrap;justify-content:space-between}
+.wider-col .lang-sec.infotilesec .heading{margin-left:-0px}
+.wider-col .lang-sec.infotilesec .paragraph{width:48%;display:inline-block}
+.wider-col .lang-sec.infotilesec .nativeLangPara{width:100%;max-width:100%}
+.wider-col .lang-sec .paragraph.nativeLangPara .lang-scale{font-size:10px}_
+.wider-col .lang-sec .paragraph .lang-scale *,.wider-col .lang-sec.infobarsec .paragraph .lang-scale *,.wider-col .lang-sec.infotilesec .paragraph .lang-scale *{font-size:8px;line-height:11px;margin-top:5px}
+.wider-col .lang-sec .paragraph.nativeLangPara .lang-scale,.wider-col .lang-sec .paragraph.nativeLangPara .lang-scale *{font-size:10px}
