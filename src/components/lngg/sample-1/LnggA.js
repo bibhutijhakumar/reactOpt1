@@ -14,7 +14,6 @@ export default function LnggA() {
                             <span id="83FRFM1"><p>French</p></span><span class="colon"><span class="beforecolonspace"> </span>: </span>
                             <span class="flt-right" id="84RATG1"></span>
                         </div>
-
                         <div class="field fielditem-ratt lang-scale">
                             <span id="85RATT1">Langue maternelle</span><span class="colon">: </span>
                         </div>

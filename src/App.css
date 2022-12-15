@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body{
   background: #f9f9fb;
 }
@@ -40,7 +43,10 @@ a{text-decoration:none}
 .App {
   text-align: center;
 }
-
+.deactive{display: none;}
+.active{display: block}
+pre{white-space:pre-wrap}
+.blue-bdr{border:1px solid #007582;}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
